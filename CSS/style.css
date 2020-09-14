@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+body{
+    font-family:Roboto,Open Sans;
+}
+
+*{
+    border:0px;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+
+.header{
+    width:1900px;
+    height: 120px;
+    background-color:#FFFFFF;
+    background-origin:padding-box;
+    background-repeat: no-repeat;
+    z-index:1;
+    padding-left: 60px;
+    padding-right: 60px;
+    position:fixed;
+    margin:0px;
+    padding-top: 36px;
+    overflow-x: hidden;
+
+    
+}
+
+.menuicon{
+
+    width:38px; 
+    height:22.63px; 
+    margin-left: 64px;
+
+}
+
+.logo{
+    padding-top: 36px;
+    padding-bottom: 35px;
+    width: 248px;
+    height: 49px;
+}
+
+.text{
+    padding-top:50px;
+    padding-right:70px;
+    padding-left:1287px;
+    font-size: 18px;
+    color:#373737;  
+}
+    
+
+.rest{
+    width: 111px;
+    height:21px;
+    color:#373737;
+    opacity: 1;
+    font: normal normal normal 18px Roboto;
+}
+
+.live{
+    margin-left: 18px;
+    padding-top:50px;
+    width:37px;
+    height:21px;
+    color:#ff8B74;
+    opacity:1;
+    font-size:18px;
+    font: normal normal normal 18px Roboto;
+}
+
+
+
+.content{
+    background-image:url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/banner_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height:840px;
+    padding-top:421px;
+    padding-left:320px;
+    font-size:40px;
+    color: white;
+    vertical-align: middle;
+
+}
+
+.mountain{
+ 
+    background-repeat: no-repeat;
+    background-origin:padding-box;
+    width:135.39px;
+    height:41.4px;
+    
+}
+.info{
+    margin-top:502px;
+    width: 447px;
+    height:106px;
+    text-align:left;
+    color:#ffffff;
+    opacity: 1;
+    font: normal normal normal 40px Roboto;
+  
+}
+
+.bg{
+    background: #FE8F79;
+    opacity: 1;
+    border-radius: 24px;
+    width:200px;
+    height:48px;
+    margin-top:534px;
+    
+}
+
+.explore{
+    font-size:32;
+    background-color:#FE8F79;
+    opacity: 0.6;
+    border-radius: 24px;
+    width: 200px;
+    height: 48px;
+    padding-left:54px;
+    padding-right:53px;
+    font: normal normal normal 25px Roboto;
+    color:#ffffff;
+  
+   
+}
+
+
+.card-info{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/trail_card_bg.png");
+    width:433px;
+    height:556px;
+    display:block;
+    display:inline-block;
+    
+ 
+ 
+}
+
+.card-info-bm{
+    position: absolute; 
+    display: inline-block; 
+    background-origin: padding-box;
+    padding-left: 351px;
+   
+}
+
+.card-info-text1{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:194px; 
+    padding-left: 56px; 
+    color:#ffffff;
+    font: normal normal bold 22px Roboto;
+
+}
+
+.card-info-text2{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:194px; 
+    padding-left: 98px; 
+    color:#ffffff;
+    font: normal normal bold 22px/33px Roboto;
+   
+}
+
+.card-info-text3{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:285px; 
+    padding-left: 98px; 
+    color:#ffffff;
+    font: normal normal 300 18px Open Sans;
+    
+}
+
+.card-info-text4{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:438px; 
+    padding-left: 105px; 
+    font-size: 15px; 
+    color:#ffffff;
+    letter-spacing: 1.33px;
+    font: normal normal normal 15px/18px Roboto;
+}
+
+
+
+.card-photo{
+    width: 36px;
+    height:37px;
+    float:right;
+    padding-right: 10px;
+}
+
+
+.card-last-info{
+    position: absolute;
+    width:433px;
+    height:556px;
+    display:block;
+    display:inline-block;
+   
+
+}
+
+.card-last-info-text1{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:194px;   
+    color:#373737;
+    background-origin: padding-box;
+    font: normal normal bold 22px Roboto;
+    
+
+
+}
+
+
+.card-last-info-text2{
+    position: absolute; 
+    display: inline-block; 
+    padding-top:285px;  
+    color:#373737;
+    font: normal normal 300 18px/35px Open Sans;
+
+
+}
+
+
+
+.subscribe{
+    margin-top:205px;
+    height:48px;
+    width: 680px;
+    background-color:#ffffff;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    border:1px solid #FE8F79;
+    border-radius:24px;
+    opacity: 1;
+}
+
+.subscribe-text{
+
+    padding-left: 22px; 
+    padding-top: 12px; 
+    color:#373737;  
+    opacity:1; 
+    float:left;
+    font: normal normal medium 22px Roboto;
+
+}
+
+.btn-subscribe{
+    float:right;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 42px;
+    padding-right: 42px;
+    background-color:#FE8F79;
+    border-radius: 24px;
+    font: normal normal normal 22px Roboto;
+    color:#ffffff;
+}
+
+.read{
+    padding-top:104px; 
+    padding-left:420px;  
+    width: 91px; 
+    height:25px; 
+    font: normal normal normal 22px Roboto;
+}
+
+.month{
+    font: normal normal normal 18px Open Sans;
+}
+
+.comment-text1{
+    width:532px; 
+    height: 136px; 
+    margin-top:15px;
+    font: normal normal bold 48px Roboto;
+
+}
+
+.horizontal-line{
+    width: 517px; 
+    color: #373737;
+}
+
+
+.comment-text2{
+    margin-top: 21px; 
+    width:517px;
+    height:95px;
+    color:#373737;
+    font: normal normal normal 18px Open Sans;
+}
+
+.comment-text3{
+    font: normal normal bold 18px Open Sans;
+
+}
+
+
+
+.commenta{
+    margin-top:0px;
+    padding-top:0px; 
+    padding-left:420px;
+}
+
+
+
+.comment1{
+  
+    height:356px;
+    width: 433px;
+    /* background-image:url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/black.jpg"); */
+    background-color: black;
+    display:block;
+    background-origin: padding-box;
+    display:inline-block;
+    margin-top:0px;
+    overflow:hidden;
+   
+
+
+
+}
+
+.comment2{
+    margin-left: 69px;
+    width:532px;
+    height: 356px;
+    background-size: cover;
+    display:block;
+    display:inline-block;
+    overflow:hidden;
+   
+   
+}
+
+.circle{
+    height: 5px;
+  width: 5px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+
+.news{
+    margin-top: 100px; 
+    text-align: center;  
+    color:#FF937F;
+    font: normal normal normal 22px Roboto;
+}
+
+.horizontal-line1{
+    border: 1px solid #587431; 
+    margin-top:105px; 
+    margin-left:61px; 
+    width:1800px; 
+    height: 0px; 
+    opacity:1;
+}
+
+.contact{
+    margin-top:100px; 
+    text-align: center; 
+    color:#FF8B74; 
+    font-size:22px;
+    font: normal normal medium 22px Roboto;
+}
+
+
+.send-msg{
+    font: normal normal bold 40px Roboto;
+    margin-top:89px; 
+    text-align:center; 
+    width:363px; 
+    height:47px; 
+}
+
+.form1{
+    padding-left:300px; 
+    margin-top:98px;
+}
+
+.form2{
+    padding-left:300px; 
+    margin-top:50px;
+}
+
+.form3{
+    margin-top:50px; 
+    padding-left: 300px;
+}
+
+
+.form-property{
+    border:1px solid #151D41;
+    padding-top: 10px;  
+    padding-left:26px; 
+    width:615px; 
+    height:69px;
+    color:#151D41;
+    font: normal normal normal 18px Roboto;
+}
+
+.form-property1{
+    width:1320px;
+    height:205px;
+    border:1px solid #151D41;
+    color:#151D41;
+    padding-left:26px;
+    font: normal normal normal 18px Roboto;
+}
+
+.form-property2{
+    background-color: #FE8F79;
+    background-origin: padding-box;
+    font-size:22px;
+    color:white;
+    padding-top: 19px;
+    padding-left:68px;
+    padding-right: 68px;
+    padding-bottom: 16px;
+    border-radius: 40px;
+
+
+}
+
+.form-btn{
+    margin-top:81px;
+    font: normal normal medium 22px Roboto;
+}
+
+.join{
+    padding-left: 300px;  
+    color:#373737; 
+    padding-top:105px;
+    font: normal normal normal 26px Roboto;
+}
+
+.join1{
+    padding-left:300px; 
+    margin-top:64px;
+}
+
+.join2{
+    padding-left:300px; 
+    margin-top:63px;
+}
+
+
+
+.team1{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_01.png");
+    width:280px;
+    height:280px;
+    display:block;
+    display:inline-block;
+ 
+ 
+}
+
+.team2{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_02.png");
+    width:280px;
+    height:280px;
+    display:block;
+    display:inline-block;
+    margin-left: 53px;
+ 
+}
+
+
+.team3{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_03.png");
+    width:280px;
+    height:280px;
+    display:block;
+    display:inline-block;
+    margin-left: 53px;
+ 
+}
+
+.team4{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_04.png");
+    width:280px;
+    height:280px;
+    display:block;
+    display:inline-block;
+    margin-left: 53px;
+ 
+}
+
+.team5{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_05.png");
+    width:280px;
+    height:280px;
+    display:block;
+    display:inline-block;
+ 
+ 
+}
+
+.team-info{
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/trail_card_bg.png");
+    width:280px;
+    height:280px;
+    display:block;
+    display:inline-block;
+    margin-left:53px;
+ 
+ 
+}
+
+.team-info-bm{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-left: 230px;
+}
+
+.team-info-text{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:82px; 
+    padding-left: 70px; 
+    color:white;
+    font: normal normal 600 22px Open Sans;
+}
+
+.team-info-text1{
+    position: absolute; 
+    display: inline-block; 
+    display: block; 
+    padding-top:180px; 
+    padding-left: 100px;  
+    color:white;
+    font: normal normal normal 18px Roboto;
+}
+
+.photo{
+    width: 36px;
+    height:37px;
+    float:right;
+    padding-right: 10px;
+}
+
+.team-info1{
+    /* background-image: url("white.png"); */
+    width:296px;
+    height:214px;
+    display:block;
+    display:inline-block;
+    margin-top: 74px;
+    margin-left: 53px;
+    position: absolute;
+}
+
+.team-text1-info1
+{
+    color:#373737;
+    font: normal normal 600 22px Open Sans;
+}
+
+
+.team-text2-info1{
+    color:#373737; 
+    margin-top:25px;
+    font: normal normal 300 18px Open Sans;
+}
+
+.footer{
+    width:1927px;
+    height:280px;
+    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/trail_card_bg.png");
+    background-size: cover;
+    margin-top: 256px;
+    display:block;
+    display: inline-block;
+ 
+
+}
+
+.footer-logo{
+    position: absolute;
+    padding-top:87px;
+    padding-left: 60px;
+    
+}
+
+.footer-contact{
+    position: absolute;
+    padding-left: 686px;
+    font-size:22px;
+    color:#ffffff;
+    padding-top:87px;
+    font: normal normal 600 22px Open Sans;
+}
+
+.ctel{
+    padding-top:5px;
+    font: normal normal normal 18px Open Sans;
+}
+
+.cemail{
+    padding-top: 5px;
+    font: normal normal normal 18px Open Sans;
+}
+
+.footer-address{
+    position: absolute;
+    padding-left: 1034px;
+    padding-top: 110px;
+    color:#ffffff;
+    font: normal normal normal 18p Open Sans;
+}
+
+.add1{
+    padding-top: 5px;
+    font: normal normal normal 18px Open Sans;
+}
+
+
+.add2{
+    padding-top: 5px;
+    font: normal normal normal 18px/35px Open Sans;
+}
+
+.footer-link{
+    position: absolute;
+    padding-top:85px;
+    padding-left:1564px;
+    color:#ffffff;
+
+}
+
+.link1{
+
+    font-size: 22px;
+    font: normal normal 600 22px Open Sans;
+
+}
+
+.link2{
+    font-size: 18px; 
+    padding-top: 5px;
+    font: italic normal normal 18px Open Sans;
+
+}
+
