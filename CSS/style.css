@@ -12,7 +12,7 @@ body{
 }
 
 .header{
-    width:1900px;
+    width:100%;
     height: 120px;
     background-color:#FFFFFF;
     background-origin:padding-box;
@@ -74,10 +74,11 @@ body{
 
 
 .content{
-    background-image:url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/banner_bg.jpg");
+    background-image:url("../Images/banner_bg.jpg");
     background-position: center;
     background-size: cover;
     height:840px;
+    width:100%;
     padding-top:421px;
     padding-left:320px;
     font-size:40px;
@@ -132,7 +133,7 @@ body{
 
 
 .card-info{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/trail_card_bg.png");
+    background-image: url("../Images/trail_card_bg.png");
     width:433px;
     height:556px;
     display:block;
@@ -471,7 +472,7 @@ body{
 
 
 .team1{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_01.png");
+    background-image: url("../Images/member_01.png");
     width:280px;
     height:280px;
     display:block;
@@ -481,7 +482,7 @@ body{
 }
 
 .team2{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_02.png");
+    background-image: url("../Images/member_02.png");
     width:280px;
     height:280px;
     display:block;
@@ -492,7 +493,7 @@ body{
 
 
 .team3{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_03.png");
+    background-image: url("../Images/member_03.png");
     width:280px;
     height:280px;
     display:block;
@@ -502,7 +503,7 @@ body{
 }
 
 .team4{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_04.png");
+    background-image: url("../Images/member_04.png");
     width:280px;
     height:280px;
     display:block;
@@ -512,7 +513,7 @@ body{
 }
 
 .team5{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/member_05.png");
+    background-image: url("../Images/member_05.png");
     width:280px;
     height:280px;
     display:block;
@@ -522,7 +523,7 @@ body{
 }
 
 .team-info{
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/trail_card_bg.png");
+    background-image: url("../Images/trail_card_bg.png");
     width:280px;
     height:280px;
     display:block;
@@ -593,7 +594,7 @@ body{
 .footer{
     width:1927px;
     height:280px;
-    background-image: url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/trail_card_bg.png");
+    background-image: url("../Images/trail_card_bg.png");
     background-size: cover;
     margin-top: 256px;
     display:block;
