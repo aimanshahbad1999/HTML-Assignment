@@ -8,45 +8,38 @@ body{
     border:0px;
     margin:0px;
     padding:0px;
-    overflow-x: hidden;
+    
 }
+
+
 
 .header{
     width:100%;
     height: 120px;
     background-color:#FFFFFF;
-    background-origin:padding-box;
-    background-repeat: no-repeat;
     z-index:1;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding:36px 60px 0px 60px;
     position:fixed;
     margin:0px;
-    padding-top: 36px;
-    overflow-x: hidden;
+    
 
     
 }
 
 .menuicon{
-
-    width:38px; 
-    height:23px; 
+    display:inline-block; 
     margin-left: 64px;
     margin-right:60px;
 
 }
 
 .logo{
-    padding-top: 36px;
-    padding-bottom: 35px;
-    width: 248px;
-    height: 49px;
+    display:inline-block;
+    
 }
 
 .text{
-    padding-top:30px;
-    padding-right:70px;
+    padding:30px 70px;
     float:right;
     font-size: 18px;
     color:#373737;  
@@ -54,27 +47,21 @@ body{
     
 
 .rest{
-    width: 111px;
-    height:21px;
     color:#373737;
-    opacity: 1;
     font: normal normal normal 18px Roboto;
 }
 
 .live{
     margin-left: 18px;
     padding-top:50px;
-    width:37px;
-    height:21px;
     color:#ff8B74;
-    opacity:1;
     font-size:18px;
     font: normal normal normal 18px Roboto;
 }
 
 
 
-.content{
+.banner{
     background-image:url("../Images/banner_bg.jpg");
     background-position: center;
     background-size: cover;
@@ -90,37 +77,23 @@ body{
 
 .mountain{
  
-    background-repeat: no-repeat;
-    background-origin:padding-box;
-    width:135px;
-    height:41px;
+    margin-bottom: 40px;
+    display:block;
     
 }
-.info{
-    margin-top:502px;
-    width: 447px;
-    height:106px;
+
+.info1{
     text-align:left;
     color:#ffffff;
-    opacity: 1;
     font: normal normal normal 40px Roboto;
+    display:block;
   
 }
 
-.bg{
-    background: #FE8F79;
-    opacity: 1;
-    border-radius: 24px;
-    width:200px;
-    height:48px;
-    margin-top:534px;
-    
-}
 
 .explore{
     font-size:32;
     background-color:#FE8F79;
-    opacity: 0.6;
     border-radius: 24px;
     width: 200px;
     height: 48px;
@@ -128,10 +101,18 @@ body{
     padding-right:53px;
     font: normal normal normal 25px Roboto;
     color:#ffffff;
+    display:block;
+    margin-top:46px;
+    
   
    
 }
 
+.card{
+    padding-left:60px; 
+    margin-top:123px;
+    margin-left:60px;
+}
 
 .card-info{
     background-image: url("../Images/trail_card_bg.png");
@@ -139,6 +120,9 @@ body{
     height:556px;
     display:block;
     display:inline-block;
+    position: relative;
+    margin-left:46px;
+    
     
  
  
@@ -146,7 +130,7 @@ body{
 
 .card-info-bm{
     position: absolute; 
-    padding-left: 351px;
+    right:10px;
    
 }
 
@@ -203,6 +187,7 @@ body{
     height:556px;
     display:block;
     display:inline-block;
+    margin-left:46px;
    
 
 }
@@ -211,7 +196,6 @@ body{
     position: absolute;  
     padding-top:194px;   
     color:#373737;
-    background-origin: padding-box;
     font: normal normal bold 22px Roboto;
     
 
@@ -229,50 +213,90 @@ body{
 }
 
 
-
+/* 
 .subscribe{
+
     margin-top:205px;
+  
     height:48px;
     width: 680px;
     background-color:#ffffff;
-    background-repeat: no-repeat;
-    background-origin: padding-box;
     border:1px solid #FE8F79;
-    border-radius:24px;
-    opacity: 1;
+    
+    text-align: center;
+    
 }
 
 .subscribe-text{
+    border-radius:24px;
+    width:680px;
+    height:48px;
+    color:#151D41;
+    padding-left:26px;
+    font: normal normal normal 18px Roboto;
+} */
 
-    padding-left: 22px; 
-    padding-top: 12px; 
-    color:#373737;  
-    opacity:1; 
-    float:left;
-    font: normal normal medium 22px Roboto;
 
-}
 
-.btn-subscribe{
+/* .btn-subscribe{
     float:right;
-    padding-top: 10px;
-    padding-bottom: 11px;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding:10px 42px 11px 42px;
     background-color:#FE8F79;
     border-radius: 24px;
     font: normal normal normal 22px Roboto;
     color:#ffffff;
+
+} */
+
+
+.subscribe{
+
+    margin-top:205px;
+    text-align: center;
 }
 
-.read{
-    padding-top:104px; 
-    padding-left:420px;  
-    width: 91px; 
-    height:25px; 
+.subscribe-text{
+    border-radius:24px;
+    width:680px;
+    height:48px;
+    color:#373737;
+    border:1px solid #FE8F79;
+    padding-left:26px;
+    font: normal normal normal 18px Roboto;
+}
+
+.subscribe-btn{
+    position: relative;
+    right:205px;
+    padding:10px 44px 12px 42px;
+    background-color:#FE8F79;
+    border-radius: 24px;
+    font: normal normal normal 22px Roboto;
+    color:#ffffff;
+
+}
+
+
+.subscribe-btn{
+    position: relative;
+    right:-px;
+}
+
+.comment-section{
+    margin-top: 50px;
+    margin-left:320px;
+}
+
+
+.read1{   
     font: normal normal normal 22px Roboto;
 }
 
+.read2{
+    font: normal normal normal 22px Roboto;
+    margin-top: 77px;
+
+}
 .month{
     font: normal normal normal 18px Open Sans;
 }
@@ -307,9 +331,9 @@ body{
 
 
 .commenta{
-    margin-top:0px;
+    margin-top:13px;
     padding-top:0px; 
-    padding-left:420px;
+    
 }
 
 
@@ -320,14 +344,9 @@ body{
     width: 433px;
     background-color: black;
     display:block;
-    background-origin: padding-box;
     display:inline-block;
     margin-top:0px;
     overflow:hidden;
-   
-
-
-
 }
 
 .comment2{
@@ -338,6 +357,7 @@ body{
     display:block;
     display:inline-block;
     overflow:hidden;
+    font-size:18px;
    
    
 }
@@ -368,36 +388,35 @@ body{
     opacity:1;
 }
 
+.SMS{
+    margin-top:100px;
+    text-align: center;
+    
+}
 .contact{
-    margin-top:100px; 
-    text-align: center; 
     color:#FF8B74; 
-    font-size:22px;
     font: normal normal medium 22px Roboto;
 }
 
 
 .send-msg{
+    font-size:22px;
     font: normal normal bold 40px Roboto;
     margin-top:89px; 
-    text-align:center; 
-    width:363px; 
-    height:47px; 
 }
 
 .form1{
-    padding-left:300px; 
     margin-top:98px;
 }
 
 .form2{
-    padding-left:300px; 
+
     margin-top:50px;
 }
 
 .form3{
     margin-top:50px; 
-    padding-left: 300px;
+   
 }
 
 
@@ -422,14 +441,9 @@ body{
 
 .form-property2{
     background-color: #FE8F79;
-    background-origin: padding-box;
     font-size:22px;
     color:white;
-    padding-top: 19px;
-    padding-left:68px;
-    padding-right: 68px;
-    padding-bottom: 16px;
-    border-radius: 40px;
+    padding:19px 68px 16px 68px;
 
 
 }
@@ -444,15 +458,16 @@ body{
     color:#373737; 
     padding-top:105px;
     font: normal normal normal 26px Roboto;
+
 }
 
 .join1{
-    padding-left:300px; 
     margin-top:64px;
+    position: relative;
 }
 
 .join2{
-    padding-left:300px; 
+   
     margin-top:63px;
 }
 
@@ -464,8 +479,7 @@ body{
     height:280px;
     display:block;
     display:inline-block;
- 
- 
+  
 }
 
 .team2{
@@ -535,6 +549,7 @@ body{
     padding-left: 70px; 
     color:white;
     font: normal normal 600 22px Open Sans;
+    text-align: center;
 }
 
 .team-info-text1{
@@ -586,24 +601,26 @@ body{
     margin-top: 256px;
     display:block;
     display: inline-block;
+    overflow-x: hidden;
+    
  
 
 }
 
 .footer-logo{
-    position: absolute;
     padding-top:87px;
     padding-left: 60px;
+    float: left;
     
 }
 
 .footer-contact{
-    position: absolute;
-    padding-left: 686px;
     font-size:22px;
     color:#ffffff;
     padding-top:87px;
     font: normal normal 600 22px Open Sans;
+    float: left;
+    margin-left: 378px;
 }
 
 .ctel{
@@ -617,11 +634,11 @@ body{
 }
 
 .footer-address{
-    position: absolute;
-    padding-left: 1034px;
+    margin-left:131px;
     padding-top: 110px;
     color:#ffffff;
     font: normal normal normal 18px Open Sans;
+    float: left;
 }
 
 .add1{
@@ -636,9 +653,9 @@ body{
 }
 
 .footer-link{
-    position: absolute;
+    margin-left:234px;
     padding-top:85px;
-    padding-left:1564px;
+    float: left;
     color:#ffffff;
 
 }
@@ -657,3 +674,6 @@ body{
 
 }
 
+.main{
+    overflow-x: hidden;
+}
