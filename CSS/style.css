@@ -31,8 +31,9 @@ body{
 .menuicon{
 
     width:38px; 
-    height:22.63px; 
+    height:23px; 
     margin-left: 64px;
+    margin-right:60px;
 
 }
 
@@ -44,9 +45,9 @@ body{
 }
 
 .text{
-    padding-top:50px;
+    padding-top:30px;
     padding-right:70px;
-    padding-left:1287px;
+    float:right;
     font-size: 18px;
     color:#373737;  
 }
@@ -91,8 +92,8 @@ body{
  
     background-repeat: no-repeat;
     background-origin:padding-box;
-    width:135.39px;
-    height:41.4px;
+    width:135px;
+    height:41px;
     
 }
 .info{
@@ -145,16 +146,12 @@ body{
 
 .card-info-bm{
     position: absolute; 
-    display: inline-block; 
-    background-origin: padding-box;
     padding-left: 351px;
    
 }
 
 .card-info-text1{
-    position: absolute; 
-    display: inline-block; 
-    display: block; 
+    position: absolute;  
     padding-top:194px; 
     padding-left: 56px; 
     color:#ffffff;
@@ -163,20 +160,16 @@ body{
 }
 
 .card-info-text2{
-    position: absolute; 
-    display: inline-block; 
-    display: block; 
+    position: absolute;  
     padding-top:194px; 
     padding-left: 98px; 
     color:#ffffff;
-    font: normal normal bold 22px/33px Roboto;
+    font: normal normal bold 22px Roboto;
    
 }
 
 .card-info-text3{
     position: absolute; 
-    display: inline-block; 
-    display: block; 
     padding-top:285px; 
     padding-left: 98px; 
     color:#ffffff;
@@ -185,15 +178,13 @@ body{
 }
 
 .card-info-text4{
-    position: absolute; 
-    display: inline-block; 
-    display: block; 
+    position: absolute;  
     padding-top:438px; 
     padding-left: 105px; 
     font-size: 15px; 
     color:#ffffff;
-    letter-spacing: 1.33px;
-    font: normal normal normal 15px/18px Roboto;
+    letter-spacing: 1px;
+    font: normal normal normal 15px Roboto;
 }
 
 
@@ -217,9 +208,7 @@ body{
 }
 
 .card-last-info-text1{
-    position: absolute; 
-    display: inline-block; 
-    display: block; 
+    position: absolute;  
     padding-top:194px;   
     color:#373737;
     background-origin: padding-box;
@@ -232,10 +221,9 @@ body{
 
 .card-last-info-text2{
     position: absolute; 
-    display: inline-block; 
     padding-top:285px;  
     color:#373737;
-    font: normal normal 300 18px/35px Open Sans;
+    font: normal normal 300 18px Open Sans;
 
 
 }
@@ -298,8 +286,8 @@ body{
 }
 
 .horizontal-line{
+    border: 1px solid #D1D1D1; 
     width: 517px; 
-    color: #373737;
 }
 
 
@@ -330,7 +318,6 @@ body{
   
     height:356px;
     width: 433px;
-    /* background-image:url("/home/cuelogic.local/aiman.shahbad/html_assignment/Images/black.jpg"); */
     background-color: black;
     display:block;
     background-origin: padding-box;
@@ -356,7 +343,7 @@ body{
 }
 
 .circle{
-    height: 5px;
+  height: 5px;
   width: 5px;
   background-color: red;
   border-radius: 50%;
@@ -568,7 +555,7 @@ body{
 }
 
 .team-info1{
-    /* background-image: url("white.png"); */
+
     width:296px;
     height:214px;
     display:block;
@@ -592,7 +579,7 @@ body{
 }
 
 .footer{
-    width:1927px;
+    width:100%;
     height:280px;
     background-image: url("../Images/trail_card_bg.png");
     background-size: cover;
@@ -634,7 +621,7 @@ body{
     padding-left: 1034px;
     padding-top: 110px;
     color:#ffffff;
-    font: normal normal normal 18p Open Sans;
+    font: normal normal normal 18px Open Sans;
 }
 
 .add1{
@@ -645,7 +632,7 @@ body{
 
 .add2{
     padding-top: 5px;
-    font: normal normal normal 18px/35px Open Sans;
+    font: normal normal normal 18px Open Sans;
 }
 
 .footer-link{
